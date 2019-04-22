@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barber_salon.iml" filepath="$PROJECT_DIR$/.idea/modules/barber_salon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barber_salon-build.iml" filepath="$PROJECT_DIR$/.idea/modules/barber_salon-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kinyozi.iml" filepath="$PROJECT_DIR$/.idea/modules/kinyozi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kinyozi-build.iml" filepath="$PROJECT_DIR$/.idea/modules/kinyozi-build.iml" />
+    </modules>
+  </component>
+</project>
