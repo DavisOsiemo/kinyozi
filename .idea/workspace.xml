@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cd49dbc-2469-4149-a9e0-e803a0caef61" name="Default" comment="" />
+    <list default="true" id="4cd49dbc-2469-4149-a9e0-e803a0caef61" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/HighSpenderSender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/LoyalSender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/RegularSender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/VisitorSender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/generic_data.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/.gui.scala.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/gui.scala" beforeDir="false" afterPath="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/gui.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -31,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gui.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gui.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/gui.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="256" column="22" lean-forward="true" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
+            <state relative-caret-position="501">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
               <folding>
                 <element signature="e#29#58#0" expanded="true" />
               </folding>
@@ -43,20 +51,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootPanel.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-swing_2.12/srcs/scala-swing_2.12-2.0.0-M2-sources.jar!/scala/swing/RootPanel.scala">
+      <file leaf-file-name="generic_data.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/generic_data.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#29#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComboBox.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-swing_2.12/srcs/scala-swing_2.12-2.0.0-M2-sources.jar!/scala/swing/ComboBox.scala">
+      <file leaf-file-name="HighSpenderSender.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/HighSpenderSender.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+            <state relative-caret-position="221">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="e#29#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegularSender.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/RegularSender.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="e#29#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisitorSender.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/VisitorSender.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="e#29#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoyalSender.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/LoyalSender.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -64,8 +111,8 @@
       <file leaf-file-name="test.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="80" column="57" lean-forward="true" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
+            <state relative-caret-position="255">
+              <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
               <folding>
                 <element signature="e#29#49#0" expanded="true" />
               </folding>
@@ -73,20 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guiapp.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="guiapp.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/guiapp.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -99,6 +137,9 @@
       <find>Cus</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -108,7 +149,12 @@
         <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/gui_app" />
         <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/test.scala" />
         <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/guiapp.scala" />
+        <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/generic_data.scala" />
+        <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/RegularSender.scala" />
+        <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/VisitorSender.scala" />
         <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/gui.scala" />
+        <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/LoyalSender.scala" />
+        <option value="$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/HighSpenderSender.scala" />
       </list>
     </option>
   </component>
@@ -117,6 +163,9 @@
     <option name="y" value="27" />
     <option name="width" value="972" />
     <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -358,12 +407,12 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.2012987" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.20173536" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.19978285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2863412" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.330076" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -459,23 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="80" column="57" lean-forward="true" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
-          <folding>
-            <element signature="e#29#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/guiapp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-swing_2.12/srcs/scala-swing_2.12-2.0.0-M2-sources.jar!/scala/swing/ComboBox.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -490,13 +522,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/gui.scala">
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/RegularSender.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="256" column="22" lean-forward="true" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
             <element signature="e#29#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/VisitorSender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/LoyalSender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/HighSpenderSender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+          <folding>
+            <element signature="e#29#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/gui.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/generic_data.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#29#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinyozi/src/main/scala/com/kinyozisms/bulk/guiapp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
